@@ -31,15 +31,46 @@
     }
 
     /* Do it! 1번 상자는 교차축 시작점에, 3번 상자는 교차축에 가득 차게 배치하는 #box1, #box3 스타일 만들기 */
-
+    #box1 {
+      align-self: auto;
+    }
+    #box2 {
+      align-self: normal;
+    }
+    #box3 {
+      align-self: flex-start;
+    }
+    #box4 {
+      align-self: flex-end;
+    }
+    #box5 {
+      align-self: self-start;
+    }
+    #box6 {
+      align-self: self-end;
+    }
+    #box7 {
+      align-self: baseline;
+    }
+    #box8 {
+      align-self: center;
+    }
+    #box9 {
+      align-self: stretch;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="box" id="box1"><p>1</p></div>
-    <div class="box"><p>2</p></div>
+    <div class="box" id="box2"><p>2</p></div>
     <div class="box" id="box3"><p>3</p></div>
-    <div class="box"><p>4</p></div>
+    <div class="box" id="box4"><p>4</p></div>
+    <div class="box" id="box5"><p>5</p></div>
+    <div class="box" id="box6"><p>6</p></div>
+    <div class="box" id="box7"><p>7</p></div>
+    <div class="box" id="box8"><p>8</p></div>
+    <div class="box" id="box9"><p>9</p></div>
   </div>
 </body>
 </html>
