@@ -20,7 +20,16 @@
     }
 
     /* Do it! 가상 요소를 사용해 내용/스타일 추가하기 */
-    
+    h1::before {
+      content: "*";
+      color: red;
+      margin-right: 5px;
+    }
+    h1::after {
+      content: "○";
+      color: blue;
+      margin-left: 5px;
+    }
   </style>
 </head>
 <body>
