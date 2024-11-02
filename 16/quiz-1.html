@@ -18,5 +18,13 @@
 <body>
 	<h2>4의 배수일까 아닐까</h2>
 
+  <script>
+    let num1 = prompt('숫자를 입력하시오.');
+
+    if (num1 !== null)
+      (parseInt(num1) % 4 === 0) ? document.write(`${num1}는 4의 배수입니다.`) : document.write(`${num1}는 4의 배수가 아닙니다.`);
+    else 
+      alert('입력을 취소합니다.');
+  </script>
 </body>
 </html>
